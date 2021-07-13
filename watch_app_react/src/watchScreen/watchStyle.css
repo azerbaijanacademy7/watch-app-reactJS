@@ -1,0 +1,74 @@
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main_wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+#watch{
+    width: 500px;
+}
+.watch_desc{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.text_wrapper{
+    width: 45%;
+}
+.radio_colors{
+    margin-left: 7px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.radio_colors:nth-of-type(1){
+    margin-left: 0;
+}
+.radio_image{
+    width: 100%;
+    max-width: 80px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.selected{
+    border: 2px solid teal;
+}
+.radio_heading{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.features_btn{
+    min-width: 80px;
+    box-sizing: content-box;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #e0dede;
+    padding: 10px 25px;
+    margin-right: 7px;
+    font-weight: 800;
+    font-size: 13px;
+}
+.selected_btn{
+    color: white;
+    background-color: gray;
+}
+.buy_btn{
+    min-width: 80px;
+    box-sizing: content-box;
+    color: white;
+    background-color: teal;
+    text-transform: uppercase;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    margin-top: 36px;
+}
